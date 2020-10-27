@@ -6,9 +6,7 @@ phases:
       nodejs: 12
     commands:
       - echo start
-      - apt-get install sshpass
-      - sshpass -p trolololo ssh pi@178.48.46.148 -p 5554
-      - touch touch.txt
+      - ifconfig
 artifacts:
   files:
     - '**/*'
